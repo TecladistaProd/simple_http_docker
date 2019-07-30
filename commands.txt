@@ -1,0 +1,8 @@
+//build
+docker build --tag=name .
+
+//run
+docker run -p 9000:80 tagname
+
+//bash
+docker run -it tagname bash
